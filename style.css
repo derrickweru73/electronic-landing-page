@@ -3,7 +3,7 @@ p {
     font-style:inherit;
     color:hotpink;
 } body {
-    background-color: aliceblue;
+    background-color: lightblue;
     color: black;
     column-gap: 0cap;
 }
@@ -13,7 +13,7 @@ h1 {
     font-size: medium;
     font-style: initial;
     font-display: inherit;
-    color:blue;
+    color:darkred;
 }
 
 h2 {
@@ -71,7 +71,9 @@ button {
 
 /* Attribute selector */
 a[href] {
-    color: #fff;
+    color: rgb(0, 255, 195);
+    gap: 20px;
+
 }
 
 /* Descendant selector */
@@ -83,4 +85,17 @@ div h4 {
 /* Child selector */
 div>p {
     color: green;
+}
+
+/* Interactive state pseudo class selectors */
+button:hover {
+    background-color: red;
+    color: #fff;
+}
+button:active {
+    background-color: yellow;
+}
+nav ul {
+    list-style-type: none;
+    gap: 20px;
 }
