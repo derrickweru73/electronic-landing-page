@@ -1,1 +1,75 @@
- 
+p {
+    font-family: Arial, Helvetica, sans-serif color Blue;
+    font-style:inherit;
+    color:hotpink;
+} body {
+    background-color: aliceblue;
+    color: black;
+    column-gap: 0cap;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-style: initial;
+    font-display: inherit;
+    color:blue;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-style: inherit;
+    caret-color: blue;
+    color: goldenrod;
+}
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: goldenrod;
+
+}
+
+img  {
+    height: 400px;
+    width: 600px;
+    border-radius: 5%;
+}
+
+/*universal selector */
+* {
+    margin: 10;
+    padding: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*      Element selector */
+
+button {
+    padding: 5px;
+    padding-right:shop now ;
+    color: blue;
+    margin: 5px;
+    background-origin: padding-box;
+    border: 7;
+    border-radius: 10xp;
+    cursor: pointer;
+}
+/* class selector */
+
+.container {
+    border: 1px solid red;
+    width: 500px;
+    height: 200px;
+    background-color: azure;
+}
+
+/* id selector */
+#portfolio {
+    border: 4px dotted green;
+}
+
+/* Attribute selector */
+a[href] {
+    color: #fff;
+}
