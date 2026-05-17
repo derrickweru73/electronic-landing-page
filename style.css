@@ -73,3 +73,14 @@ button {
 a[href] {
     color: #fff;
 }
+
+/* Descendant selector */
+
+div h4 {
+    color: red;
+}
+
+/* Child selector */
+div>p {
+    color: green;
+}
